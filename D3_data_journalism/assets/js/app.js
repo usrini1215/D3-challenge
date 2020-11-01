@@ -4,8 +4,8 @@ var svgHeight = 500;
 
 var margin = {
   top: 20,
-  right: 40,
-  bottom: 60,
+  right: 45,
+  bottom: 65,
   left: 100
 };
 
@@ -106,6 +106,7 @@ d3.csv("assets/data/data.csv").then(function(censusData) {
         toolTip.hide(data);
       });
 
+      
     // Create axes labels
     chartGroup.append("text")
       .attr("transform", "rotate(-90)")
